@@ -1,0 +1,56 @@
+.navbar-wrapper {
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.top-bar {
+    border-radius: 5px;
+}
+
+.orbit-container .orbit-slides-container>* .orbit-caption {
+    background-color: transparent;
+}
+
+.orbit-container .orbit-caption {
+    text-align: center;
+    text-shadow: 0 1px 2px #000;
+}
+
+.orbit-container .orbit-caption h1 {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.orbit-container .orbit-caption p {
+    color: #fff;
+    font-size: 1.4rem;
+    width: 60%;
+    margin: 15px auto;
+}
+
+img.round {
+    border-radius: 50%;
+}
+
+.valign-middle {
+    display: table;
+}
+
+.valign-middle .columns {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.valign-middle .columns,
+.valign-middle [class*="column"] + [class*="column"]:last-child {
+    float: none;
+}
+
+footer {
+    padding: 15px;
+    margin-top: 65px;
+}
